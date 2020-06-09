@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+}
+p {
+  color: hsl(229, 6%, 66%);
+}
+h1,
+h2,
+h3 {
+  color: hsl(234, 12%, 34%);
+}
+.wrapper {
+  max-width: 1280px;
+  margin: 160px auto;
+}
+.header {
+  text-align: center;
+}
+.top-title {
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}
+.header p {
+  width: 540px;
+  margin: auto;
+}
+.contenido {
+  display: flex;
+  justify-content: center;
+}
+.central {
+  display: block;
+}
+.caja-1 {
+  padding: 20px;
+  margin: auto 30px;
+  max-width: 350px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.caja-1 img {
+  display: block;
+  margin: 20px auto auto 150px;
+}
+.caja-2 {
+  padding: 20px;
+  margin: 30px;
+  max-width: 350px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.caja-2 img {
+  display: block;
+  margin: 20px auto auto 150px;
+}
+.caja-3 {
+  padding: 20px;
+  margin: 30px;
+  max-width: 350px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.caja-3 img {
+  display: block;
+  margin: 20px auto auto 150px;
+}
+.caja-4 {
+  padding: 20px;
+  margin: auto 30px;
+  max-width: 350px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.caja-4 img {
+  display: block;
+  margin: 20px auto auto 150px;
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    margin: 100px auto;
+  }
+  .contenido {
+    display: block;
+    margin: auto;
+  }
+  .top-title {
+    font-size: 25px;
+    margin: auto auto;
+  }
+  .header h1 {
+    font-size: 25px;
+    margin: auto;
+  }
+  .header p {
+    width: 300px;
+    margin: 20px auto 50px;
+  }
+}
